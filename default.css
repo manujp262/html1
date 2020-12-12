@@ -7,7 +7,7 @@ body
 {
 	margin: 0px;
 	padding: 0px;
-	background: #333333;
+	background: #3557c7;
 	font-family: 'Impact', sans-serif;
 	font-size: 11pt;
 	font-weight: 300;
@@ -309,7 +309,7 @@ ul.contact li a.icon-rss:before { background: #F2600B; }
 
 #header-wrapper
 {
-	background: #757575;
+	background: #3557c7;
 }
 
 #header
@@ -325,20 +325,37 @@ ul.contact li a.icon-rss:before { background: #F2600B; }
 #logo
 {
 	position: absolute;
-	top: 1em;
-	left: 0;
+	top: 2em;
+	left: 300;
+	width: 100%;
 }
 
 #logo h1
 {
-	color: #FFF;
+	display: inline-block;
+	font-size: 2.5em;
+	text-transform: uppercase;
+	font-weight: 700;
+	color: #2C383B;
+	padding-right: 0.50em;
+	border-right: 1px solid rgba(0,0,0,.3);
+}
+
+#logo span
+{
+	position: absolute;
+	top: 1.4em;
+	display: inline-block;
+	padding-left: 1.50em;
+	letter-spacing: 0.10em;
+	text-transform: uppercase;
+	font-size: 0.90em;
 }
 
 #logo a
 {
 	text-decoration: none;
-	text-transform: uppercase;
-	color: #FFF;
+	color: #2C383B;
 }
 
 /*********************************************************************************/
@@ -348,7 +365,7 @@ ul.contact li a.icon-rss:before { background: #F2600B; }
 #menu
 {
 	position: absolute;
-	top: 2em;
+	top: 3em;
 	right: 0;
 }
 
@@ -390,10 +407,10 @@ ul.contact li a.icon-rss:before { background: #F2600B; }
 }
 
 /*********************************************************************************/
-/* Banner                                                                        */
+/* Folleto                                                                        */
 /*********************************************************************************/
 
-#banner
+#folleto
 {
 	overflow: hidden;
 	padding: 7em 0em 5em 0em;
@@ -403,27 +420,79 @@ ul.contact li a.icon-rss:before { background: #F2600B; }
 	color: rgba(0, 0, 0, 0.8);
 }
 
-#banner .title
+#folleto .title
 {
 	margin-bottom: 1em;
 	text-transform: uppercase !important;
 }
 
-#banner .title h2
+#folleto .title h2
 {
 	color: #000;
 }
 
-#banner .title .byline
+#folleto .title .byline
 {
 	color: rgba(9, 9, 9, 0.6);
 }
 
-#banner .button
+#folleto .button
 {
 	margin-top: 3em;
 	background:  #757575 !important;
 }
+
+/*********************************************************************************/
+/* Banner		                                                                 */
+/*********************************************************************************/
+
+.banner {
+	display: flex;
+	background: #FFC31F;
+	height: 300px
+}
+
+.banner_item {
+	flex: 1;
+	color: #fff;
+	font-weight: bold;
+	font-size: 1.2em;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	transition: flex-grow 0.2s;
+}
+
+.banner_itemhover {
+	flex-grow: 10;
+}
+
+.banner_itemhover .folleto_title {
+	transform: rotate(0)
+}
+
+.banner_item:nth-chhild(1) {
+	background: rgb(35, 57, 7);
+}
+
+.banner_item:nth-chhild(2) {
+	background: hsl(30,100%,40%);
+}
+
+.banner_item:nth-chhild(3) {
+	background: hsl(200,100%,40%);
+}
+
+.banner_item:nth-chhild(4) {
+	background: hsl(280,100%,40%);
+}
+
+.banner_title {
+	margin: 0;
+	transform: rotate(-90deg);
+	transition: trasform 0.2s 0.2s;
+}
+
 
 /*********************************************************************************/
 /* Page                                                                          */
@@ -505,7 +574,7 @@ ul.contact li a.icon-rss:before { background: #F2600B; }
 
 #featured a
 {
-	color: rgb(255, 255, 255);
+	color: #ffffff;
 }
 
 #featured .button
@@ -513,7 +582,7 @@ ul.contact li a.icon-rss:before { background: #F2600B; }
 	background: #0B0B0B;
 	margin-top: 3em;
 	font-size: 1em;
-	color: #aliceblue;
+	color: #blue;
 }
 
 #featured .title
