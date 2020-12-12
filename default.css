@@ -463,27 +463,27 @@ ul.contact li a.icon-rss:before { background: #F2600B; }
 	transition: flex-grow 0.2s;
 }
 
-.banner_itemhover {
+.banner_item:hover {
 	flex-grow: 10;
 }
 
-.banner_itemhover .folleto_title {
+.banner_item:hover .banner_title {
 	transform: rotate(0)
 }
 
-.banner_item:nth-chhild(1) {
+.banner_item:nth-child(1) {
 	background: rgb(35, 57, 7);
 }
 
-.banner_item:nth-chhild(2) {
+.banner_item:nth-child(2) {
 	background: hsl(30,100%,40%);
 }
 
-.banner_item:nth-chhild(3) {
+.banner_item:nth-child(3) {
 	background: hsl(200,100%,40%);
 }
 
-.banner_item:nth-chhild(4) {
+.banner_item:nth-child(4) {
 	background: hsl(280,100%,40%);
 }
 
