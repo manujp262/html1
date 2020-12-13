@@ -472,19 +472,19 @@ ul.contact li a.icon-rss:before { background: #F2600B; }
 }
 
 .banner_item:nth-child(1) {
-	background: rgb(35, 57, 7);
+	background: rgb(45, 47, 42);
 }
 
 .banner_item:nth-child(2) {
-	background: hsl(30,100%,40%);
+	background: hsl(202deg, 31%, 22%);
 }
 
 .banner_item:nth-child(3) {
-	background: hsl(200,100%,40%);
+	background: hsl(200deg, 28%, 39%);
 }
 
 .banner_item:nth-child(4) {
-	background: hsl(280,100%,40%);
+	background: hsl(205deg, 47%, 64%);
 }
 
 .banner_title {
