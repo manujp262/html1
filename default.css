@@ -226,7 +226,7 @@ ul.contact li a.icon-rss:before { background: #F2600B; }
 
 .title .byline
 {
-	font-size: 1.7em;
+	font-size: 1.5em;
 	color: #5e5e5e;
 }
 	
@@ -604,7 +604,7 @@ border-radius: 8px;
 /*********************************************************************************/
 
 #footer {
-	padding: 6rem 0 4rem 0 ;
+	padding: 3rem 0 4rem 0 ;
 	background: #f2f2f2;
 }
 
